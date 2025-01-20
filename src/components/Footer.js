@@ -8,7 +8,7 @@ import logo from '../assets/logo.png';
 export default function Footer() {
   return (
 
-    <footer className='text-white-100 bg-black-50 lg:px-20 px-5 container mx-auto font-inter bg-img'>
+    <footer className='text-white-100 bg-black-50 lg:px-20 px-5 container mx-auto font-inter'>
 
       <div className="lg:flex block justify-between items-center gap-x-44 lg:py-20 lg:space-y-0 space-y-8">
 

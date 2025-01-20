@@ -149,23 +149,14 @@ html {
   transform: matrix(0.89, -0.26, 0.53, 0.95, 0, 0);
 }
 
-.bg-vision{
+.bg-vision {
   background: linear-gradient(180deg, #C689F9 0%, rgba(217, 217, 217, 0) 172.98%, #F5F5F5 172.98%);
 
 }
 
-.bg-mission{
+.bg-mission {
   background: linear-gradient(180deg, #EF09DA -3.94%, #C584F5 111.16%);
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -228,4 +219,103 @@ html {
   list-style: none;
   margin-bottom: 10px;
   width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Container Styles */
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Timeline with Horizontal Line */
+.timeline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  position: relative;
+  margin: 30px 0;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #EF09DA;
+  z-index: 0;
+}
+
+/* Circle Dots */
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  border: 3px solid #EF09DA;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.circle.highlight {
+  background-color: #EF09DA;
+  transform: scale(1.2);
+}
+
+/* Content Boxes */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.box {
+  display: none;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px 0;
+  padding: 20px;
+  border: 3px solid #EF09DA;
+  border-radius: 8px;
+  /* background-color: white; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.box.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.box h2 {
+  margin: 0 0 10px;
+}
+
+.box p {
+  margin: 0;
 }

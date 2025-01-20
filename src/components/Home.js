@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
-import Difference from './Difference'
-
 import bottom from '../assets/bottom.png';
 import feature1 from '../assets/feature1.png';
 import feature2 from '../assets/feature2.png';
@@ -13,20 +11,9 @@ import read from '../assets/read.png';
 import logo from '../assets/logo1.png';
 import bg_tokenomics from '../assets/bg_tokenomics.png';
 import token from '../assets/token.png';
-
-
-import wallet from '../assets/wallet.png';
-import google from '../assets/google.png';
-import apple from '../assets/apple.png';
-import bar1 from '../assets/bar1.png';
-import bar2 from '../assets/bar2.png';
-import bar3 from '../assets/bar3.png';
-import side from '../assets/side.png';
-import side1 from '../assets/side1.png';
-import ricon1 from '../assets/ricon1.png';
-import ricon2 from '../assets/ricon2.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Roadmap from './Roadmap';
 
 
 export default function Home() {
@@ -577,330 +564,21 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* What Makes us Different? section */}
+            {/* roadmap section */}
 
-            <div id="difference" className="lg:py-20 py-5 lg:px-20 px-5 container mx-auto relative z-10"
-            >
-                <h3 data-aos='fade-right' className='md:text-5xl text-2xl font-libre font-semibold text-white-100'>
-                    What Makes us Different?
-                </h3>
-
-                <div className='md:pt-20 py-8'>
-                    <Difference />
-                </div>
-
-
-                <div className='lg:flex justify-between items-center lg:pt-20 py-12 lg:space-y-0 space-y-8'>
-
-                    <div className='lg:w-1/3'>
-                        <h3 data-aos='fade-right' className='md:text-5xl text-3xl lg:text-left text-center font-libre font-extrabold text-blue-100 lg:leading-relaxed lg:pb-0 pb-6'>
-                            TOKEN
-                            DISTRIBUTION
-                        </h3>
-                    </div>
-
-                    <div className='flex items-center justify-center md:gap-16 gap-6'>
-
-                        <div>
-                            <img src={bar1} alt='' className=''></img>
-                            <h4 data-aos='fade-up' className='md:text-3xl text-xl font-urbanist pt-3 font-semibold text-white-100 text-center'>
-                                Locked
-                            </h4>
-                        </div>
-
-                        <div>
-                            <img src={bar2} alt='' className=''></img>
-                            <h4 data-aos='fade-up' className='md:text-3xl text-xl font-urbanist pt-3 font-semibold text-white-100 text-center'>
-                                Circulation
-                            </h4>
-                        </div>
-
-                        <div>
-                            <img src={bar3} alt='' className=''></img>
-                            <h4 data-aos='fade-up' className='md:text-3xl text-xl font-urbanist pt-3 font-semibold text-white-100 text-center'>
-                                Team
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            {/* roadmap */}
-
-            <div id='roadmap' className="lg:px-20 px-5 lg:pt-20 py-5 relative z-10">
+            <div id='roadmap' className="lg:px-20 px-5 lg:py-20 py-6 relative z-10">
                 <div className='container mx-auto'>
 
-                    <div className=''>
-                        <div data-aos='fade-right' className='flex items-center gap-x-3 pb-3'>
-                            <svg width="68" height="2" viewBox="0 0 68 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="1" x2="67.1717" y2="1" stroke="#F8F9FF" strokeWidth="2" />
-                            </svg>
-                            Roadmap
-                        </div>
-                        <h3 data-aos='fade-right' className='md:text-5xl text-3xl font-libre font-semibold text-white-100'>
-                            Our Roadmap
-                        </h3>
-                    </div>
+                    <p className='md:text-5xl text-3xl font-bricolage text-center uppercase'>Roadmap</p>
 
-                    {/* mobile version */}
-                    <div className='lg:hidden block pt-8'>
-                        <div className='flex flex-col gap-y-8'>
-
-                            <div data-aos="fade-right" className='border-b-2'>
-                                <p className='font-semibold text-xl pb-6'>Concept</p>
-
-                                <ul className='pb-5 space-y-4'>
-                                    <li className='flex gap-x-3'>
-                                        <span><img src={ricon2} alt='icon'></img></span>
-                                        Concept Generation
-                                    </li>
-                                    <li className='flex gap-x-3'>
-                                        <span><img src={ricon2} alt='icon'></img></span>
-                                        Team Assemble
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div data-aos="fade-right" className='border-b-2'>
-                                <p className='font-semibold text-xl pb-6'>Research</p>
-
-                                <ul className='pb-5 space-y-4'>
-                                    <li className='flex gap-x-3'>
-                                        <span><img src={ricon1} alt='icon'></img></span>
-                                        Proving the concept can work
-                                    </li>
-
-                                    <li className='flex gap-x-3'>
-                                        <span><img src={ricon2} alt='icon'></img></span>
-                                        Strategic Plan
-                                    </li>
-
-                                    <li className='flex gap-x-3'>
-                                        <span><img src={ricon2} alt='icon'></img></span>
-                                        White paper conpletion
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div data-aos="fade-right" className='border-b-2'>
-                                <p className='font-semibold text-xl pb-6'>Design</p>
-
-                                <ul className='pb-5 space-y-4'>
-                                    <li className='flex gap-x-3'>
-                                        <span><img src={ricon1} alt='icon'></img></span>
-                                        Platform design and technical de monstration
-                                    </li>
-
-                                    <li className='flex gap-x-3'>
-                                        <span><img src={ricon2} alt='icon'></img></span>
-                                        Building the MVP
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div data-aos="fade-right" className='border-b-2'>
-                                <p className='font-semibold text-xl pb-6'>Pre-Sale</p>
-
-                                <ul className='pb-5 space-y-4'>
-                                    <li className='flex gap-x-3'>
-                                        <span><img src={ricon1} alt='icon'></img></span>
-                                        Public financing & Seed funding raised
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* desktop version */}
-
-                    <div className='lg:my-16 my-6 lg:block hidden'>
-
-                        <div className='translate-y-44 h-1.5 bg-blue-100'>
-                        </div>
-
-                        <div className='flex items-center justify-center gap-5'>
-
-                            <div id='node_1' className='flex items-end gap-x-0 translate-y-40 -mt-2'>
-
-                                <div className='-translate-y-8 flex flex-col items-center justify-center'>
-                                    <h4 className='text-2xl font-semibold text-center'>2024 <span className='text-blue-100'>Q1</span>
-                                    </h4>
-
-                                    <svg width="32" height="32" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#1877F2" />
-                                        <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#1877F2" />
-                                    </svg>
-
-                                    <svg width="4" height="170" viewBox="0 0 2 211" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <line opacity="0.3" x1="0.797675" y1="-2.02072e-08" x2="0.797685" y2="210.803" stroke="#1877F2" strokeWidth="0.924575" />
-                                    </svg>
-
-                                </div>
-
-                                <div className='-translate-y-12 -translate-x-6'>
-                                    <p className='font-semibold text-xl mb-5'>Concept</p>
-                                    <ul className='space-y-3'>
-                                        <li className='flex gap-x-3 text-sm'>
-                                            <span><img src={ricon2} alt='icon'></img></span>
-                                            Concept Generation
-                                        </li>
-                                        <li className='flex gap-x-3 text-sm'>
-                                            <span><img src={ricon2} alt='icon'></img></span>
-                                            Team Assemble
-                                        </li>
-                                    </ul>
-
-                                </div>
+               
 
 
-
-                            </div>
-
-                            <div data-aos='fade-down' id='node_2' className='flex items-end gap-x-0 -mt-8'>
-                                <div className='flex flex-col items-center justify-center'>
-                                    <svg width="4" height="170" viewBox="0 0 2 211" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <line opacity="0.3" x1="0.797675" y1="-2.02072e-08" x2="0.797685" y2="210.803" stroke="#1877F2" strokeWidth="0.924575" />
-                                    </svg>
-
-                                    <svg width="32" height="32" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#1877F2" />
-                                        <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#1877F2" />
-                                    </svg>
-
-                                    <h4 className='text-2xl font-semibold'>2023 <span className='text-blue-100'>Q2</span></h4>
-                                </div>
-
-                                <div className='-translate-y-20 '>
-                                    <p className='font-semibold text-xl mb-5'>Concept</p>
-                                    <ul className='space-y-3'>
-                                        <li className='flex gap-x-3 text-sm'>
-                                            <span><img src={ricon1} alt='icon'></img></span>
-                                            Proving the concept can work
-                                        </li>
-
-                                        <li className='flex gap-x-3 text-sm'>
-                                            <span><img src={ricon2} alt='icon'></img></span>
-                                            Strategic Plan
-                                        </li>
-
-                                        <li className='flex gap-x-3 text-sm'>
-                                            <span><img src={ricon2} alt='icon'></img></span>
-                                            White paper conpletion
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-
-                            <div id='node_2' className='flex items-end gap-x-0 translate-y-40 mt-1'>
-
-                                <div className='-translate-y-10 flex flex-col items-center justify-center'>
-                                    <h4 className='text-2xl font-semibold'>2024 <span className='text-blue-100'>Q3</span></h4>
-
-                                    <svg width="32" height="32" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#1877F2" />
-                                        <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#1877F2" />
-                                    </svg>
-
-                                    <svg width="4" height="170" viewBox="0 0 2 211" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <line opacity="0.3" x1="0.797675" y1="-2.02072e-08" x2="0.797685" y2="210.803" stroke="#1877F2" strokeWidth="0.924575" />
-                                    </svg>
-                                </div>
-
-                                <div className='-translate-y-14 -translate-x-6'>
-                                    <p className='font-semibold text-xl mb-5'>Design</p>
-                                    <ul className='space-y-3 w-52'>
-                                        <li className='flex gap-x-3 text-sm'>
-                                            <span><img src={ricon1} alt='icon'></img></span>
-                                            Platform design and technical de monstration
-                                        </li>
-
-                                        <li className='flex gap-x-3 text-sm'>
-                                            <span><img src={ricon2} alt='icon'></img></span>
-                                            Building the MVP
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-
-                            <div data-aos='fade-down' id='node_4' className='flex items-end gap-x-0 -mt-14'>
-
-                                <div className='flex flex-col items-center justify-center'>
-                                    <svg width="4" height="200" viewBox="0 0 2 211" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <line opacity="0.3" x1="0.797675" y1="-2.02072e-08" x2="0.797685" y2="210.803" stroke="#1877F2" strokeWidth="0.924575" />
-                                    </svg>
-
-                                    <svg width="32" height="32" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle opacity="0.2" cx="19.0471" cy="19.4725" r="18.5609" fill="#1877F2" />
-                                        <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#1877F2" />
-                                    </svg>
-
-                                    <h4 className='text-2xl font-semibold'>2023 <span className='text-blue-100'>Q4</span></h4>
-                                </div>
-
-                                <div className='-translate-y-24 w-52'>
-                                    <p className='font-semibold text-xl mb-5'>Concept</p>
-                                    <ul className='space-y-3'>
-                                        <li className='flex gap-x-3 text-sm'>
-                                            <span><img src={ricon1} alt='icon'></img></span>
-                                            Public financing & Seed funding raised
-                                        </li>
-                                    </ul>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
+                    <Roadmap />
 
                 </div>
             </div>
 
-            {/* Solve X Wallet App section */}
-
-            <div id='wallet' className="lg:px-20 px-5 lg:pt-20 py-6 relative z-10">
-                <div className='container mx-auto'>
-
-                    <div className="lg:flex block justify-center items-center lg:py-12 lg:space-y-0 space-y-8">
-
-                        <div data-aos="fade-left" className="lg:w-1/2 w-full">
-                            <div>
-                                <h3 className='md:text-7xl text-3xl font-extrabold tracking-wide text-white-100 capitalize font-libre'>
-                                    Solve X
-                                </h3>
-                                <h3 className='md:text-7xl text-3xl font-extrabold tracking-wide text-white-100 capitalize font-libre pt-4'>
-                                    Wallet App
-                                </h3>
-                            </div>
-
-
-                            <p className='py-6 text-white-50 lg:w-1/2 text-lg lg:leading-relaxed'>
-                                Our easy-to-use cryptocurrency wallet solution supporting multiple chains. You can send/receive all cryptocurrencies on supported chains and keep track of their transactions, as well as display detailed token information. Try it now!
-                            </p>
-
-                            <div className='flex items-center gap-x-6 mt-5'>
-
-                                <button className='py-3 px-5 bg-blue-100 rounded-lg'>
-                                    <img src={google} alt='google'></img>
-                                </button>
-
-                                <button className='py-3 px-5 bg-blue-100 rounded-lg'>
-                                    <img src={apple} alt='google'></img>
-                                </button>
-                            </div>
-
-                        </div>
-
-                        <div data-aos="zoom-in" data-aos-delay="350" className="">
-                            <img src={wallet} alt="Logo" className='w-8/12 sm:flex mx-auto animate-float' />
-                        </div>
-
-                    </div>
-                </div>
-            </div>
 
             <Footer />
 
