@@ -288,20 +288,15 @@ html {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .box {
   display: none;
   width: 100%;
-  max-width: 900px;
-  margin: 20px 0;
-  padding: 20px;
+  max-width: 1100px;
   border: 3px solid #EF09DA;
-  border-radius: 8px;
-  /* background-color: white; */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, opacity 0.3s;
+  transition: all 0.3s;
   opacity: 0;
   transform: translateY(20px);
 }
@@ -312,10 +307,12 @@ html {
   transform: translateY(0);
 }
 
-.box h2 {
-  margin: 0 0 10px;
+.box.left {
+  transform: translateX(-100%); /* Slide out to the left */
+  z-index: 0;
 }
 
-.box p {
-  margin: 0;
+.box.right {
+  transform: translateX(100%); /* Slide out to the right */
+  z-index: 0;
 }

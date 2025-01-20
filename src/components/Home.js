@@ -14,6 +14,7 @@ import token from '../assets/token.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Roadmap from './Roadmap';
+import Faq from './Faq';
 
 
 export default function Home() {
@@ -23,6 +24,29 @@ export default function Home() {
             duration: 500,
         });
     }, [])
+
+    const faqItems = [
+        {
+            title: "Why Do I Choose X-Nova AI",
+            content:
+                "X-Nova AI offers unparalleled solutions tailored to your needs, ensuring seamless integration with your goals.",
+        },
+        {
+            title: "What Is X-Nova AI",
+            content:
+                "X-Nova Ai Custom AI Bot is a versatile platform that empowers individuals and organizations to create tailored AI agents designed to meet their unique requirements. Whether for business, education, or personal use, this solution enables you to build and deploy AI bots that align perfectly with your goals.",
+        },
+        {
+            title: "How Can I Gain Access?",
+            content:
+                "You can gain access by signing up on the official X-Nova platform and following the guided process to create your personalized AI bot.",
+        },
+        {
+            title: "How Do I Benefit From It?",
+            content:
+                "X-Nova AI helps automate tasks, improve efficiency, and provide personalized AI solutions, saving time and resources.",
+        },
+    ];
 
     return (
         <div className="bg-black-100 font-inter overflow-hidden text-white-100">
@@ -568,17 +592,28 @@ export default function Home() {
 
             <div id='roadmap' className="lg:px-20 px-5 lg:py-20 py-6 relative z-10">
                 <div className='container mx-auto'>
-
-                    <p className='md:text-5xl text-3xl font-bricolage text-center uppercase'>Roadmap</p>
-
-               
-
+                    <p className='md:text-5xl text-3xl font-bricolage text-center'>Roadmap</p>
 
                     <Roadmap />
-
                 </div>
             </div>
 
+            {/* faq section */}
+
+            <div id='faq' className="lg:px-20 px-5 lg:pb-20 py-6 relative z-10">
+                <div className='container mx-auto'>
+
+                    <div className='text-center space-y-4'>
+                        <p className='md:text-5xl text-3xl font-bricolage text-center'>Have any Question? </p>
+                        <p>Join the industry leaders to discuss where the markets are heading. We accept token payments.</p>
+                    </div>
+
+                    <div className='md:mt-16 mt-6'>
+                        <Faq items={faqItems} />
+                    </div>
+
+                </div>
+            </div>
 
             <Footer />
 
