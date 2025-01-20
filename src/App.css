@@ -149,6 +149,14 @@ html {
   transform: matrix(0.89, -0.26, 0.53, 0.95, 0, 0);
 }
 
+.bg-vision{
+  background: linear-gradient(180deg, #C689F9 0%, rgba(217, 217, 217, 0) 172.98%, #F5F5F5 172.98%);
+
+}
+
+.bg-mission{
+  background: linear-gradient(180deg, #EF09DA -3.94%, #C584F5 111.16%);
+}
 
 
 

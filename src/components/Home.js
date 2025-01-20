@@ -10,15 +10,14 @@ import feature3 from '../assets/feature3.png';
 import feature4 from '../assets/feature4.png';
 import build from '../assets/build.png';
 import read from '../assets/read.png';
-import feature_1 from '../assets/feature_1.gif';
-import feature_2 from '../assets/feature_2.gif';
-import feature_3 from '../assets/feature_3.gif';
-import feature_4 from '../assets/feature_4.gif';
+import logo from '../assets/logo1.png';
+import bg_tokenomics from '../assets/bg_tokenomics.png';
 import token from '../assets/token.png';
+
+
 import wallet from '../assets/wallet.png';
 import google from '../assets/google.png';
 import apple from '../assets/apple.png';
-import video from '../assets/video.png';
 import bar1 from '../assets/bar1.png';
 import bar2 from '../assets/bar2.png';
 import bar3 from '../assets/bar3.png';
@@ -453,96 +452,130 @@ export default function Home() {
 
             <div className="lg:py-20 py-6 lg:px-20 px-5 container mx-auto relative z-10">
 
-                <div className='flex flex-wrap lg:space-y-0 space-y-8'>
-                    <div className='md:w-4/12 rounded-[32px] bg-gradient-to-b from-purple-100 to-white-100 bg-opacity-30 p-8 mx-4'>
-                        <p className='md:text-3xl text-xl font-semibold'>
-                            
+                <div className='flex flex-wrap justify-center lg:space-y-0 space-y-8'>
+                    <div className='md:w-4/12 rounded-[32px] bg-vision md:p-10 p-6 lg:-mr-10 text-center space-y-8 lg:translate-y-16'>
+                        <p className='md:text-3xl text-xl font-semibold font-bricolage'>
+                            Vision
                         </p>
+
+                        <p className='leading-tight'>
+                            Our vision is bridging the gap between artificial intelligence and blockchain technology, empowering users with accessible, customizable, and innovative tools. Our mission is to foster engagement, reward meaningful contributions, and create an ecosystem where technology adapts to individual needs, driving adoption and innovation across the digital landscape.”
+                        </p>
+
+                        <button className='px-5 py-2 rounded-full border-2 '>
+                            Read More
+                        </button>
                     </div>
 
-                    <div className='md:w-4/12 rounded-[32px] bg-gradient-to-b from-pink-100 to-purple-100 bg-opacity-30 p-8 mx-4'>
+                    <div className='md:w-4/12 rounded-[32px] bg-mission bg-opacity-30 md:p-10 p-6 text-center space-y-8'>
+                        <p className='md:text-3xl text-xl font-semibold font-bricolage'>
+                            Mission
+                        </p>
 
+                        <p className='leading-tight'>
+                            Our mission is revolutionizing digital interaction by merging AI innovation with blockchain technology, empowering individuals and organizations with tools that foster creativity, collaboration, and growth. Our mission is to build a decentralized ecosystem where AI serves as a catalyst for automation, engagement, and seamless user experiences, while promoting active participation and rewarding community contributions.
+                        </p>
+
+                        <button className='px-5 py-2 rounded-full border-2 '>
+                            Read More
+                        </button>
+                    </div>
+
+                    <div className='mx-6 md:w-3/12 space-y-5'>
+                        <img src={logo} alt='' className='w-56 flex mx-auto'></img>
+
+                        <p className='md:text-4xl text-2xl font-semibold font-bricolage text-center'>
+                            X-Nova AI: Unleashing
+                        </p>
                     </div>
                 </div>
 
             </div>
 
+            {/* tokenomics section */}
 
-            <img src={side} alt='' className='absolute left-0 -mt-24'></img>
+            <img src={bg_tokenomics} alt='' className='absolute w-full right-0 left-0 -mt-16'></img>
 
-            {/* our token */}
-
-            <div id='tokenomics' className="lg:px-20 px-5 font-urbanist lg:py-20 py-6 relative z-10">
+            <div id='tokenomics' className="lg:px-20 px-5 lg:py-20 py-6 relative z-10">
                 <div className='container mx-auto'>
 
-                    <div className='lg:flex items-center justify-between gap-x-12'>
+                    <p className='md:text-5xl text-3xl font-bricolage text-center'>TOKENOMICS</p>
 
-                        <div data-aos="fade-right" className='lg:w-1/2'>
-                            <div className='space-y-3'>
-                                <p className='text-lg font-semibold flex items-center gap-x-2'>
-                                    <span>
-                                        <svg width="62" height="4" viewBox="0 0 62 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <line y1="2.06888" x2="61.9862" y2="2.06888" stroke="white" strokeWidth="2.21379" />
-                                        </svg>
-                                    </span>
-                                    Our Token
-                                </p>
+                    <button className='border-2 rounded-full px-6 py-3 mx-auto block mt-8'>
+                        Click to copy Contract Address
+                    </button>
 
-                                <h3 className='md:text-5xl text-3xl font-semibold text-white-100'>
-                                    What is SolveX Token?
-                                </h3>
-                            </div>
-
-                            <p className='lg:leading-snug mt-8'>
-                                Jorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                            </p>
+                    <div className='flex flex-wrap items-center justify-center md:pt-28 pt-8'>
+                        <div className='lg:w-5/12'>
+                            <img src={token} alt=''></img>
                         </div>
 
-                        <div data-aos="fade-up" className='lg:w-1/2'>
-                            <img src={token} alt='token' className=''></img>
+                        <div className='lg:w-5/12 space-y-3'>
+                            <div className='px-3 py-2 rounded-xl bg-[rgba(210,208,208,0.13)] flex items-center justify-between'>
+
+                                <div className='flex items-center gap-3'>
+                                    <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.542236" y="0.116699" width="33.6824" height="33.6824" rx="4.2103" fill="#32B6EA" />
+                                    </svg>
+
+                                    Token For Liquidity
+                                </div>
+                                <strong>80%</strong>
+                            </div>
+
+                            <div className='px-3 py-2 rounded-xl bg-[rgba(210,208,208,0.13)] flex items-center justify-between'>
+
+                                <div className='flex items-center gap-3'>
+                                    <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.542236" y="0.116699" width="33.6824" height="33.6824" rx="4.2103" fill="#1CA151" />
+                                    </svg>
+
+                                    Token For CEX
+                                </div>
+                                <strong>5%</strong>
+                            </div>
+
+                            <div className='px-3 py-2 rounded-xl bg-[rgba(210,208,208,0.13)] flex items-center justify-between'>
+
+                                <div className='flex items-center gap-3'>
+                                    <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.542236" y="0.116699" width="33.6824" height="33.6824" rx="4.2103" fill="#DEAD2F" />
+                                    </svg>
+
+                                    Token For Treasury
+                                </div>
+                                <strong>5%</strong>
+                            </div>
+
+                            <div className='px-3 py-2 rounded-xl bg-[rgba(210,208,208,0.13)] flex items-center justify-between'>
+
+                                <div className='flex items-center gap-3'>
+                                    <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.542236" y="0.116699" width="33.6824" height="33.6824" rx="4.2103" fill="#A00763" />
+                                    </svg>
+
+                                    Network Emission
+                                </div>
+                                <strong>10%</strong>
+                            </div>
+
+                            <div className='px-3 py-2 rounded-xl bg-[rgba(210,208,208,0.13)] flex items-center justify-between'>
+
+                                <div className='flex items-center gap-3'>
+                                    <svg width="35" height="34" viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="0.542236" y="0.116699" width="33.6824" height="33.6824" rx="4.2103" fill="#343EBF" />
+                                    </svg>
+
+                                    Tax Buy & Sell
+                                </div>
+                                <strong>5% - 5%</strong>
+                            </div>
+
+                            <p className='md:text-4xl text-2xl font-semibold pt-3'>Token Supply : 100.000.000</p>
                         </div>
                     </div>
-
-                    <div className='flex flex-col mx-auto w-11/12 bg-blue-100 rounded-2xl lg:p-12 p-5 text-center lg:-mt-24'>
-                        <div data-aos="zoom-in" className="flex justify-center items-center lg:gap-44 gap-5  mx-auto">
-                            <div className='space-y-2'>
-                                <p className='md:text-xl text-sm'>
-                                    Total Supply
-                                </p>
-                                <p className='md:text-4xl text-xl font-semibold font-libre'>
-                                    12M
-                                </p>
-                            </div>
-
-                            <div className='space-y-2'>
-                                <p className='md:text-xl text-sm'>
-                                    Locked
-                                </p>
-                                <p className='md:text-4xl text-xl font-semibold font-libre'>
-                                    6M
-                                </p>
-                            </div>
-
-                            <div className='space-y-2'>
-                                <p className='md:text-xl text-sm'>
-                                    Circulating
-                                </p>
-                                <p className='md:text-4xl text-xl font-semibold font-libre'>
-                                    3M+
-                                </p>
-                            </div>
-                        </div>
-
-                        <p data-aos="fade-up" className='md:mt-16 mt-8'>
-                            Jorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,<br></br> dictum est a, mattis tellus
-                        </p>
-                    </div>
-
-
                 </div>
             </div>
-
-            <img src={side1} alt='' className='absolute right-0 -mt-44'></img>
 
             {/* What Makes us Different? section */}
 
