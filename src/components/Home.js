@@ -8,12 +8,8 @@ import feature1 from '../assets/feature1.png';
 import feature2 from '../assets/feature2.png';
 import feature3 from '../assets/feature3.png';
 import feature4 from '../assets/feature4.png';
-
-
-import b_1 from '../assets/b_1.svg';
-import b_2 from '../assets/b_2.png';
-import b_3 from '../assets/b_3.png';
-import about from '../assets/about.png';
+import build from '../assets/build.png';
+import read from '../assets/read.png';
 import feature_1 from '../assets/feature_1.gif';
 import feature_2 from '../assets/feature_2.gif';
 import feature_3 from '../assets/feature_3.gif';
@@ -30,7 +26,6 @@ import side from '../assets/side.png';
 import side1 from '../assets/side1.png';
 import ricon1 from '../assets/ricon1.png';
 import ricon2 from '../assets/ricon2.png';
-import bg_top from '../assets/bg-right.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -46,7 +41,7 @@ export default function Home() {
     return (
         <div className="bg-black-100 font-inter overflow-hidden text-white-100">
 
-            <div className="lg:px-20 px-5">
+            <section className="lg:px-20 px-5">
                 <div className='container mx-auto'>
 
                     <Menu />
@@ -82,7 +77,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             {/* who we are section */}
 
@@ -105,8 +100,8 @@ export default function Home() {
                                         <circle cx="11" cy="11" r="11" fill="url(#paint0_linear_5_355)" />
                                         <defs>
                                             <linearGradient id="paint0_linear_5_355" x1="11" y1="0" x2="22" y2="28.5" gradientUnits="userSpaceOnUse">
-                                                <stop stop-color="#7B2EB0" />
-                                                <stop offset="1" stop-color="#481CBB" />
+                                                <stop stopColor="#7B2EB0" />
+                                                <stop offset="1" stopColor="#481CBB" />
                                             </linearGradient>
                                         </defs>
                                     </svg>
@@ -120,8 +115,8 @@ export default function Home() {
                                         <circle cx="11" cy="11" r="11" fill="url(#paint0_linear_5_355)" />
                                         <defs>
                                             <linearGradient id="paint0_linear_5_355" x1="11" y1="0" x2="22" y2="28.5" gradientUnits="userSpaceOnUse">
-                                                <stop stop-color="#7B2EB0" />
-                                                <stop offset="1" stop-color="#481CBB" />
+                                                <stop stopColor="#7B2EB0" />
+                                                <stop offset="1" stopColor="#481CBB" />
                                             </linearGradient>
                                         </defs>
                                     </svg>
@@ -136,8 +131,8 @@ export default function Home() {
                                         <circle cx="11" cy="11" r="11" fill="url(#paint0_linear_5_355)" />
                                         <defs>
                                             <linearGradient id="paint0_linear_5_355" x1="11" y1="0" x2="22" y2="28.5" gradientUnits="userSpaceOnUse">
-                                                <stop stop-color="#7B2EB0" />
-                                                <stop offset="1" stop-color="#481CBB" />
+                                                <stop stopColor="#7B2EB0" />
+                                                <stop offset="1" stopColor="#481CBB" />
                                             </linearGradient>
                                         </defs>
                                     </svg>
@@ -151,8 +146,8 @@ export default function Home() {
                                         <circle cx="11" cy="11" r="11" fill="url(#paint0_linear_5_355)" />
                                         <defs>
                                             <linearGradient id="paint0_linear_5_355" x1="11" y1="0" x2="22" y2="28.5" gradientUnits="userSpaceOnUse">
-                                                <stop stop-color="#7B2EB0" />
-                                                <stop offset="1" stop-color="#481CBB" />
+                                                <stop stopColor="#7B2EB0" />
+                                                <stop offset="1" stopColor="#481CBB" />
                                             </linearGradient>
                                         </defs>
                                     </svg>
@@ -169,243 +164,306 @@ export default function Home() {
             <section id='choose' className="lg:px-20 px-5 lg:py-20 py-6 relative z-10 font-bricolage">
                 <div className='container mx-auto'>
 
-                    <p className='md:text-xl'>Why choose Us?</p>
+                    <div className='text-center space-y-6'>
+                        <p className='md:text-xl'>Why choose Us?</p>
 
-                    <p className='md:text-4xl text-2xl font-bold'>
-                    X-Nova Ai Use Cases
-                    </p>
-
-                    <div className='flex flex-wrap items-start mx-auto text-left'>
-
-
-                        <div className='md:w-1/2 flex items-start gap-3 md:text-xl md:mt-12 mt-6'>
-                            <div>
-                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="11" cy="11" r="11" fill="url(#paint0_linear_5_355)" />
-                                    <defs>
-                                        <linearGradient id="paint0_linear_5_355" x1="11" y1="0" x2="22" y2="28.5" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#7B2EB0" />
-                                            <stop offset="1" stop-color="#481CBB" />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                            </div>
-                            <p>Empower Yourself with AI Agents</p>
-                        </div>
-
-                        <div className='md:w-1/2 flex gap-3 md:text-xl md:mt-12 mt-6'>
-                            <div>
-                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="11" cy="11" r="11" fill="url(#paint0_linear_5_355)" />
-                                    <defs>
-                                        <linearGradient id="paint0_linear_5_355" x1="11" y1="0" x2="22" y2="28.5" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#7B2EB0" />
-                                            <stop offset="1" stop-color="#481CBB" />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                            </div>
-
-                            <p>Pioneering Autonomous AI Evolution on the Ethereum Blockchain</p>
-                        </div>
-
-                        <div className='md:w-1/2 flex md:text-xl gap-3 md:mt-16 mt-6'>
-                            <div>
-                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="11" cy="11" r="11" fill="url(#paint0_linear_5_355)" />
-                                    <defs>
-                                        <linearGradient id="paint0_linear_5_355" x1="11" y1="0" x2="22" y2="28.5" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#7B2EB0" />
-                                            <stop offset="1" stop-color="#481CBB" />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                            </div>
-                            <p>Earn Rewards for Engagement</p>
-                        </div>
-
-                        <div className='md:w-1/2 flex md:text-xl gap-3 md:mt-16 mt-6'>
-                            <div>
-                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="11" cy="11" r="11" fill="url(#paint0_linear_5_355)" />
-                                    <defs>
-                                        <linearGradient id="paint0_linear_5_355" x1="11" y1="0" x2="22" y2="28.5" gradientUnits="userSpaceOnUse">
-                                            <stop stop-color="#7B2EB0" />
-                                            <stop offset="1" stop-color="#481CBB" />
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                            </div>
-                            <p>Redefining Intelligence</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* about us section */}
-
-            <section id='about' className="lg:px-20 px-5 lg:py-20 py-6 relative z-10">
-                <div className='container mx-auto'>
-
-                    <div className="lg:flex block justify-center items-center gap-x-12">
-
-
-                        <div className="lg:w-5/12 w-full img-item relative">
-                            <img src={feature1} alt="" className='' />
-                        </div>
-
-
-                    </div>
-
-                    {/* features section */}
-
-                    <div id='features' className='lg:-translate-y-12 lg:py-0 py-6'>
-
-                        <div className='font-urbanist space-y-3'>
-                            <p className='text-lg font-semibold flex items-center gap-x-2'>
-                                <span>
-                                    <svg width="62" height="4" viewBox="0 0 62 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <line y1="2.06888" x2="61.9862" y2="2.06888" stroke="white" stroke-width="2.21379" />
-                                    </svg>
-                                </span>
-                                Our Features
-                            </p>
-
-                            <h3 className='md:text-5xl text-3xl font-semibold text-white-100'>
-                                Top Features
-                            </h3>
-                        </div>
-
-                        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  justify-between items-start gap-8 py-16 font-urbanist">
-
-                            <div className='space-y-4'>
-
-                                <div className='p-12 pb-0 border-gradient flex flex-col mx-auto bg-feature-50'>
-                                    <div className='bg-red-100 w-40 h-40 rounded-t-xl mx-auto'>
-                                        <div data-aos='fade-down' className='bg-white-100 w-36 -mt-4 h-44 rounded-t-xl'>
-                                            <img data-aos='fade-in' data-delay='400' src={feature_1} alt='features' className='w-32 flex mx-auto'></img>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <p className='md:text-xl text-lg font-semibold'>
-                                    Solve X NFT Domain
-                                </p>
-                                <p className='text-white-50 text-sm'>
-                                    Easily find a comprehensive range of topics including design, development, and more.
-                                </p>
-                            </div>
-
-                            <div className='space-y-4'>
-
-                                <div className='p-12 pb-0 border-gradient flex flex-col mx-auto bg-feature-100'>
-                                    <div className='bg-yellow-100 w-40 h-40 rounded-t-xl mx-auto'>
-                                        <div data-aos='fade-down' className='bg-white-100 w-36 -mt-4 h-44 rounded-t-xl'>
-                                            <img data-aos='fade-in' data-delay='400' src={feature_2} alt='features' className='w-28 flex mx-auto'></img>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <p className='md:text-xl text-lg font-semibold'>
-                                    Solve X Ai
-                                </p>
-                                <p className='text-white-50 text-sm'>
-                                    Can find fields in finding the type of learning or course that suits you
-                                </p>
-                            </div>
-
-                            <div className='space-y-4'>
-
-                                <div className='p-12 pb-0 border-gradient flex flex-col mx-auto bg-feature-200'>
-                                    <div className='bg-blue-50 w-40 h-40 rounded-t-xl mx-auto'>
-                                        <div data-aos='fade-down' className='bg-white-100 w-36 -mt-4 h-44 rounded-t-xl'>
-                                            <img data-aos='fade-in' data-delay='400' src={feature_3} alt='features' className='w-28 flex mx-auto'></img>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <p className='md:text-xl text-lg font-semibold'>
-                                    Solve X Wallet
-                                </p>
-                                <p className='text-white-50 text-sm'>
-                                    Easy to find learning that is interested and needed by many large companies
-                                </p>
-                            </div>
-
-                            <div className='space-y-4'>
-
-                                <div className='p-12 pb-0 border-gradient flex flex-col mx-auto bg-feature-300'>
-                                    <div className='bg-blue-100 w-40 h-40 rounded-t-xl mx-auto'>
-                                        <div data-aos='fade-down' className='bg-white-100 w-36 -mt-4 h-44 rounded-t-xl'>
-                                            <img data-aos='fade-in' data-delay='400' src={feature_4} alt='features' className='w-32 flex mx-auto'></img>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <p className='md:text-xl text-lg font-semibold'>
-                                    Solve X Hosting
-                                </p>
-                                <p className='text-white-50 text-sm'>
-                                    Easy to find learning that is interested and needed by many large companies
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* What is a Solve X? */}
-
-            <div className="lg:pb-20 py-5 container mx-auto font-urbanist relative z-10">
-
-                <div className='bg-blue-100 md:p-16 p-6 rounded-r-xl lg:w-10/12'>
-
-                    <div className='md:ml-32'>
-                        <div className='space-y-2'>
-                            <p className='text-lg font-semibold flex items-center gap-x-2'>
-                                <span>
-                                    <svg width="62" height="4" viewBox="0 0 62 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <line y1="2.06888" x2="61.9862" y2="2.06888" stroke="white" stroke-width="2.21379" />
-                                    </svg>
-                                </span>
-                                Still not Sure?
-                            </p>
-
-                            <h3 className='md:text-5xl text-3xl font-semibold text-white-100'>
-                                What is a Solve X?
-                            </h3>
-                        </div>
-
-                        <p className='mt-8'>
-                            Jorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+                        <p className='md:text-6xl text-3xl font-bold tracking-wide'>
+                            X-Nova Ai Use Cases
                         </p>
                     </div>
 
-                    <div className='lg:flex mt-8'>
-                        <div className='lg:w-7/12'>
+                    <div className='flex flex-wrap items-start justify-between mx-auto md:mt-16 mt-8'>
+
+                        <div className='md:w-5/12'>
+                            <p className='md:text-2xl text-lg'>X-Nova Ai Engage-to-Earn dApp</p>
+
+                            <p className='md:my-8 my-6'>
+                                The X-Nova AI Engage-to-Earn dApp is designed to reward user engagement while promoting project visibility
+                            </p>
+
+                            <div className='flex items-center gap-3'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Community Growth & Promotion</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Increasing Awareness in the Crypto Community</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Driving User Adoption</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Building an Influencer Ecosystem</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Driving Token Utility</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Data Insights for the Project</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Supporting Grassroots Marketing</p>
+                            </div>
                         </div>
 
-                        <div className='lg:w-5/12 lg:space-y-12 space-y-6'>
-                            <div className='flex items-center gap-x-6'>
-                                <p className='lg:text-6xl text-2xl text-blue-50 font-semibold'>10+</p>
-                                <p className='font-semibold'>Lorem Ipsum Dollar here</p>
-                            </div>
+                        <div className='md:w-5/12'>
+                            <p className='md:text-2xl text-lg'>
+                                X-Nova Ai Custom Ai Agent Bot
+                                & dApp
+                            </p>
 
-                            <div className='flex items-center gap-x-6'>
-                                <p className='lg:text-6xl text-2xl text-blue-50 font-semibold'>1000+</p>
-                                <p className='font-semibold'>Lorem Ipsum Dollar here</p>
-                            </div>
+                            <p className='md:my-8 my-6'>
+                                AI Agent Telegram Bots can serve various roles, making them highly versatile for individuals, communities, and businesses
+                            </p>
 
-                            <div className='flex items-center gap-x-6'>
-                                <p className='lg:text-6xl text-2xl text-blue-50 font-semibold'>50+</p>
-                                <p className='font-semibold'>Lorem Ipsum Dollar here</p>
+                            <div className='flex items-center gap-3'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Community Management</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Customer Support & Service</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Learning & Education</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Marketing & Promotions</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Financial Assistance</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Productivity Tools</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Entertainment & Fun</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>News & Updates</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p>Social Engagement</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
 
-                <img src={video} alt='' className='lg:absolute lg:-mt-96 animate-float lg:ml-6 mt-6 lex mx-auto'></img>
+            {/* features section */}
+
+            <section id='features' className="lg:px-20 px-5 lg:pb-20 py-6 relative z-10">
+                <div className='container mx-auto'>
+
+                    <div className='flex flex-wrap items-center justify-between mx-auto md:mt-20 mt-8 lg:space-y-0 space-y-12'>
+
+                        <div className="lg:w-6/12 w-full img-item">
+                            <img src={feature1} alt="" className='max-w-[450px] w-full' />
+                        </div>
+
+                        <div className="text-white-100 lg:w-5/12 w-full lg:mt-0 mt-8">
+                            <h2 className='md:text-4xl text-2xl font-bold font-bricolage'>
+                                Custom AI Agent Bot 🤖
+                            </h2>
+
+                            <p className="py-8  ">
+                                Build and deploy smart Ai agents directly within telegram to automate tasks, boost efficency and elevate productivity like never before.
+                            </p>
+
+                            <div className="flex gap-8 items-center">
+                                <a href='/' className='border border-pink-100 rounded-lg px-3 md:text-base text-xs cursor-pointer py-2 flex items-center gap-3 divide-x divide-pink-100 md:w-48 h-[53px]'>
+                                    <img src={build} alt="" className='pr-2 border-r border-pink-100' />
+                                    Lets Build
+                                </a>
+
+                                <a href='/' className='border border-pink-100 rounded-lg px-3 md:text-base text-xs cursor-pointer py-2 flex items-center gap-3 divide-x divide-pink-100 md:w-48 h-[53px]'>
+                                    <img src={read} alt="" className='pr-2 border-r border-pink-100' />
+                                    Read Benefits
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className='flex flex-wrap flex-row-reverse items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
+                        <div className="lg:w-5/12 w-full img-item">
+                            <img src={feature2} alt="" className='max-w-[450px] w-full' />
+                        </div>
+
+                        <div className="text-white-100 lg:w-5/12 w-full lg:mt-0 mt-8">
+                            <h2 className='md:text-4xl text-2xl font-bold font-bricolage'>
+                                Custom AI Agen dApp  🖥
+                            </h2>
+
+                            <p className="py-8">
+                                create and personalize your very own AI solutions through our decentralized application. Accessible, user-friendly and tailored for everyone from beginners to blockchain pros.
+                            </p>
+
+                            <div className="flex gap-8 items-center">
+                                <a href='/' className='border border-pink-100 rounded-lg px-3 md:text-base text-xs py-2 flex items-center gap-3 divide-x divide-pink-100 md:w-48 h-[53px]'>
+                                    <img src={build} alt="" className='pr-2 border-r border-pink-100' />
+                                    Take Me There
+                                </a>
+
+                                <a href='/' className='border border-pink-100 rounded-lg px-3 md:text-base text-xs py-2 flex items-center gap-3 divide-x divide-pink-100 md:w-48 h-[53px]'>
+                                    <img src={read} alt="" className='pr-2 border-r border-pink-100' />
+                                    Read Benefits
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='flex flex-wrap items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
+
+                        <div className="lg:w-5/12 w-full img-item">
+                            <img src={feature3} alt="" className='max-w-[450px] w-full' />
+                        </div>
+
+                        <div className="text-white-100 lg:w-6/12 w-full lg:mt-0 mt-8">
+                            <h2 className='md:text-4xl text-2xl font-bold font-bricolage'>
+                                Twitter AI Agent ( Engage to Earn )
+                            </h2>
+
+                            <p className="py-8">
+                                Redefine social engagement with ENgage-to-Earn rewards on X.com (Twitter). Contribute to X-Nova AI's growth by interacting and promoting and get reward for it.
+                            </p>
+
+                            <div className="flex gap-8 items-center">
+                                <a href='/' className='border border-pink-100 rounded-lg px-3 md:text-base text-xs py-2 flex items-center gap-3 divide-x divide-pink-100 md:w-52 h-[53px]'>
+                                    <img src={build} alt="" className='pr-2 border-r border-pink-100' />
+                                    Twitter Ai Agent
+                                </a>
+
+                                <a href='/' className='border border-pink-100 rounded-lg px-3 md:text-base text-xs py-2 flex items-center gap-3 divide-x divide-pink-100 md:w-48 h-[53px]'>
+                                    <img src={read} alt="" className='pr-2 border-r border-pink-100' />
+                                    Read Benefits
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className='flex flex-wrap flex-row-reverse items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
+                        <div className="lg:w-5/12 w-full img-item">
+                            <img src={feature4} alt="" className='max-w-[450px] w-full' />
+                        </div>
+
+                        <div className="text-white-100 lg:w-5/12 w-full lg:mt-0 mt-8">
+                            <h2 className='md:text-4xl text-2xl font-bold font-bricolage'>
+                                AI Agents Evolve & Breed
+                            </h2>
+
+                            <p className="py-8">
+                                Welcome th the next frontier of AI evolution! Experience autonomous AI agents that evolove, adapt and even breed within a decentralized ecosystem. Witness innovation like never before.
+                            </p>
+
+                            <div className="flex gap-8 items-center">
+                                <a href='/' className='border border-pink-100 rounded-lg px-3 md:text-base text-xs py-2 flex items-center gap-3 divide-x divide-pink-100 md:w-52 h-[53px]'>
+                                    <img src={build} alt="" className='pr-2 border-r border-pink-100' />
+                                    Take Me There
+                                </a>
+
+                                <a href='/' className='border border-pink-100 rounded-lg px-3 md:text-base text-xs py-2 flex items-center gap-3 divide-x divide-pink-100 md:w-48 h-[53px]'>
+                                    <img src={read} alt="" className='pr-2 border-r border-pink-100' />
+                                    Read Benefits
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* X-Nova AI: Unleashing */}
+
+            <div className="lg:py-20 py-6 lg:px-20 px-5 container mx-auto relative z-10">
+
+                <div className='flex flex-wrap lg:space-y-0 space-y-8'>
+                    <div className='md:w-4/12 rounded-[32px] bg-gradient-to-b from-purple-100 to-white-100 bg-opacity-30 p-8 mx-4'>
+                        <p className='md:text-3xl text-xl font-semibold'>
+                            
+                        </p>
+                    </div>
+
+                    <div className='md:w-4/12 rounded-[32px] bg-gradient-to-b from-pink-100 to-purple-100 bg-opacity-30 p-8 mx-4'>
+
+                    </div>
+                </div>
 
             </div>
 
@@ -424,7 +482,7 @@ export default function Home() {
                                 <p className='text-lg font-semibold flex items-center gap-x-2'>
                                     <span>
                                         <svg width="62" height="4" viewBox="0 0 62 4" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <line y1="2.06888" x2="61.9862" y2="2.06888" stroke="white" stroke-width="2.21379" />
+                                            <line y1="2.06888" x2="61.9862" y2="2.06888" stroke="white" strokeWidth="2.21379" />
                                         </svg>
                                     </span>
                                     Our Token
