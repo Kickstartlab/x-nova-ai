@@ -21,19 +21,19 @@ export default function Menu() {
 
       <div className="lg:flex hidden items-center justify-between font-inter h-28">
         <a href="/" className="">
-          <img src={logo} alt="Logo" className='w-20'/>
+          <img src={logo} alt="Logo" className='w-20' />
         </a>
 
         <nav>
           <ul className="flex justify-center gap-6 pt-4 items-center text-white-100">
             <li><a href="/" className="">Home</a></li>
             <li><a href="#about" className="">About us</a></li>
-            <li><a href="#tokenomics" className="">Features</a></li>
-            <li><a href="#features" className="">Dapp</a></li>
-            <li><a href="#community" className=''>AI Agent</a></li>
-            <li><a href="#community" className=''>Autonomous Ai</a></li>
-            <li><a href="#community" className=''>Roadmap</a></li>
-            <li><a href="#community" className=''>Tokenomics</a></li>
+            <li><a href="#features" className="">Features</a></li>
+            <li><a href="#dapp" className="">Dapp</a></li>
+            <li><a href="/" className=''>AI Agent</a></li>
+            <li><a href="/" className=''>Autonomous Ai</a></li>
+            <li><a href="#tokenomics" className=''>Tokenomics</a></li>
+            <li><a href="#roadmap" className=''>Roadmap</a></li>
           </ul>
         </nav>
 
@@ -44,9 +44,9 @@ export default function Menu() {
         </div>
       </div>
 
-      <div className="lg:hidden flex items-center justify-between py-6 font-montserat">
+      <div className="lg:hidden flex items-center justify-between py-6">
         <a href="/" className="">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" className='w-14'/>
         </a>
 
         <button onClick={ToggleSidebar} className="nav cursor-pointer">
@@ -58,39 +58,20 @@ export default function Menu() {
         </button>
       </div>
 
-      <div className={`sidebar ${isOpen === true ? 'active' : ''}`}>
-        <div className='p-5'>
-          <div className="flex items-center justify-between" onClick={ToggleSidebar}>
-
-            <a href="/" className="mt-4">
-              <img src={logo} alt="Logo" className='' />
-            </a>
-            <i className="fa fa-times text-2xl"></i>
-          </div>
-
-          <div className="sd-body mt-10">
-            <ul>
-              <a onClick={ToggleSidebar} href="/"><li className='p-3'>Home</li></a>
-              <a onClick={ToggleSidebar} href="#about"><li className='p-3'>About</li></a>
-              <a onClick={ToggleSidebar} href="#tokenomics"><li className='p-3'>Tokenomics</li></a>
-              <a onClick={ToggleSidebar} href="#features"><li className='p-3'>Features</li></a>
-              <a onClick={ToggleSidebar} href="#community"><li className='p-3'>Community</li></a>
-
-              <div>
-                <button onClick={() => setShow(!show)} className="bg-gradient rounded-lg p-3 text-white-100 text-xs text-left">
-                  Join the world of advantages
-                </button>
-              </div>
-            </ul>
-          </div>
-
+      <div className={`sidebar ${isOpen === true ? 'active' : ''} dark:bg-blue-200 bg-black-100 border border-white-50 rounded-md`}>
+        <div className='p-6'>
+          <ul onClick={ToggleSidebar} className='space-y-5'>
+          <li><a href="/" className="">Home</a></li>
+            <li><a href="#about" className="">About us</a></li>
+            <li><a href="#features" className="">Features</a></li>
+            <li><a href="#dapp" className="">Dapp</a></li>
+            <li><a href="/" className=''>AI Agent</a></li>
+            <li><a href="/" className=''>Autonomous Ai</a></li>
+            <li><a href="#tokenomics" className=''>Tokenomics</a></li>
+            <li><a href="#roadmap" className=''>Roadmap</a></li>
+          </ul>
         </div>
       </div>
-
-
-      <div className={`sidebar-overlay ${isOpen === true ? 'active' : ''}`} onClick={ToggleSidebar}></div>
-
-
 
     </header >
   )

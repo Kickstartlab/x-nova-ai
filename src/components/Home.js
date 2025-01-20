@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import Footer from './Footer'
 import Menu from './Menu'
 import bottom from '../assets/bottom.png';
 import feature1 from '../assets/feature1.png';
@@ -11,6 +10,10 @@ import read from '../assets/read.png';
 import logo from '../assets/logo1.png';
 import bg_tokenomics from '../assets/bg_tokenomics.png';
 import token from '../assets/token.png';
+import x from '../assets/x.png';
+import telegram from '../assets/telegram.png';
+import discord from '../assets/discord.png';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Roadmap from './Roadmap';
@@ -56,7 +59,7 @@ export default function Home() {
 
                     <Menu />
                     <div className="flex flex-col justify-center items-center gap-y-6 lg:py-28 py-12 text-center lg:w-9/12 mx-auto">
-                        <h1 data-aos='fade-up' className='lg:text-[11rem] md:text-6xl text-3xl font-bricolage font-bold text-gradient tracking-wider'>
+                        <h1 data-aos='fade-up' className='lg:text-[11rem] md:text-7xl text-5xl font-bricolage font-bold text-gradient tracking-wider'>
                             X-Nova AI
                         </h1>
 
@@ -68,15 +71,15 @@ export default function Home() {
                             CA:
                         </p>
 
-                        <div data-aos='zoom-in' className="flex items-center justify-center md:gap-8 gap-6 mx-auto mt-5 font-bricolage">
+                        <div className="flex items-center justify-center md:gap-8 gap-6 mx-auto mt-5 font-bricolage">
                             <a href="/">
-                                <button className="text-white-100 rounded-xl py-3 md:text-lg text-xs md:px-6 px-4 border-custom">
+                                <button className="text-white-100 rounded-xl py-3 md:text-lg px-6 border-custom">
                                     Get Started
                                 </button>
                             </a>
 
                             <a href="/">
-                                <button className="text-white-100 rounded-xl py-3 md:text-lg text-xs md:px-6 px-4 border-custom">
+                                <button className="text-white-100 rounded-xl py-3 md:text-lg px-6 border-custom">
                                     Whitepaper
                                 </button>
                             </a>
@@ -516,7 +519,7 @@ export default function Home() {
                         Click to copy Contract Address
                     </button>
 
-                    <div className='flex flex-wrap items-center justify-center md:pt-28 pt-8'>
+                    <div className='flex flex-wrap items-center justify-center md:pt-28 pt-8 lg:space-y-0 space-y-8'>
                         <div className='lg:w-5/12'>
                             <img src={token} alt=''></img>
                         </div>
@@ -600,7 +603,7 @@ export default function Home() {
 
             {/* faq section */}
 
-            <div id='faq' className="lg:px-20 px-5 lg:pb-20 py-6 relative z-10">
+            <div id='faq' className="lg:px-20 px-5 py-8 relative z-10">
                 <div className='container mx-auto'>
 
                     <div className='text-center space-y-4'>
@@ -612,10 +615,40 @@ export default function Home() {
                         <Faq items={faqItems} />
                     </div>
 
+
+                    <div className='md:pt-32 pt-12 space-y-6'>
+                        <nav>
+                            <ul className="flex flex-wrap justify-center gap-5 pt-4 items-center text-white-100">
+                                <li><a href="/" className="">Home</a></li>
+                                <li><a href="#about" className="">About us</a></li>
+                                <li><a href="#features" className="">Features</a></li>
+                                <li><a href="#dapp" className="">Dapp</a></li>
+                                <li><a href="/" className=''>AI Agent</a></li>
+                                <li><a href="/" className=''>Autonomous Ai</a></li>
+                                <li><a href="#tokenomics" className=''>Tokenomics</a></li>
+                                <li><a href="#roadmap" className=''>Roadmap</a></li>
+                            </ul>
+                        </nav>
+
+                        <div className="flex justify-center gap-3 items-center">
+                            <a href='/' className='p-3 rounded-xl bg-[#353535]'>
+                                <img src={x} alt='X' className='w-4'></img>
+                            </a>
+                            <a href='/' className='p-3 rounded-xl bg-[#353535]'>
+                                <img src={telegram} alt='X' className='w-[18px]'></img>
+                            </a>
+                            <a href='/' className='p-3 rounded-xl bg-[#353535]'>
+                                <img src={discord} alt='X' className='w-[18px]'></img>
+                            </a>
+                        </div>
+
+                        <p className='text-center'>Copyright © 2025 X-Nova Ai. All rights reserved.</p>
+                    </div>
+
+
                 </div>
             </div>
 
-            <Footer />
 
 
         </div>
