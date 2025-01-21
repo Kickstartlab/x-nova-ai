@@ -34,7 +34,7 @@ export default function Menu() {
         </nav>
 
         <div>
-          <button onClick={() => setShow(!show)} className="border-custom btn-gradient rounded-lg py-3 lg:px-6 px-4 font-semibold text-white-100">
+          <button onClick={() => setShow(!show)} className="border-custom btn-gradient animate-border rounded-lg py-3 lg:px-6 px-4 font-semibold text-white-100">
             Connect Wallet
           </button>
         </div>
