@@ -30,6 +30,27 @@ html {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: textShine 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.btn-gradient {
+  background-image: none;
+  border-radius: 50px;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(90deg, #FF3BFF 0%, #ECBFBF 38.02%, #5C24FF 75.83%, #D94FD5 100%);
+  background-size: 300% auto;
+  transition: .5s;
+  background-position: 100% 0;
 }
 
 .img-item {

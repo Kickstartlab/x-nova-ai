@@ -26,7 +26,7 @@ export default function Home() {
 
     useEffect(() => {
         AOS.init({
-            duration: 500,
+            duration: 600,
         });
     }, [])
 
@@ -61,11 +61,11 @@ export default function Home() {
 
                     <Menu />
                     <div className="flex flex-col justify-center items-center gap-y-6 lg:py-28 py-12 text-center lg:w-9/12 mx-auto">
-                        <h1 data-aos='fade-up' className='lg:text-[11rem] md:text-7xl text-5xl font-bricolage font-bold text-gradient tracking-wider'>
+                        <h1 data-aos='fade-down' className='lg:text-[11rem] md:text-7xl text-5xl font-bricolage font-bold text-gradient tracking-wider'>
                             X-Nova AI
                         </h1>
 
-                        <p className='font-bricolage md:text-4xl text-xl md:leading-snug'>
+                        <p data-aos='fade-up' className='font-bricolage md:text-4xl text-xl md:leading-snug'>
                             The First Platform Pioneering Autonomous AI Advancements
                             and AI Agents  On The Ethereum Blockchain
                         </p>
@@ -75,20 +75,20 @@ export default function Home() {
 
                         <div className="flex items-center justify-center md:gap-8 gap-6 mx-auto mt-5 font-bricolage">
                             <a href="/">
-                                <button className="text-white-100 rounded-xl py-3 md:text-lg px-6 border-custom">
+                                <button className="text-white-100 rounded-xl py-3 md:text-lg px-6 border-custom btn-gradient">
                                     Get Started
                                 </button>
                             </a>
 
                             <a href="/">
-                                <button className="text-white-100 rounded-xl py-3 md:text-lg px-6 border-custom">
+                                <button className="text-white-100 rounded-xl py-3 md:text-lg px-6 border-custom btn-gradient">
                                     Whitepaper
                                 </button>
                             </a>
                         </div>
 
                         <div className='lg:h-[85vh]'>
-                            <img src={bottom} alt='x-nova-ai' className='lg:absolute right-0 left-0 w-full mt-6'></img>
+                            <img data-aos='fade-in' data-aos-delay='100' src={bottom} alt='x-nova-ai' className='lg:absolute right-0 left-0 w-full mt-6'></img>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ export default function Home() {
                     <div className='flex flex-col gap-y-5 items-center mx-auto justify-center w-11/12 bg-black-50 md:p-16 p-6 border-2 rounded-xl text-center'>
                         <p className='font-[500]'>WHO WE ARE</p>
 
-                        <p className='md:text-2xl'>
+                        <p data-aos='fade-up' className='md:text-2xl'>
                             Welcome to X-Nova AI, the first platform pioneering autonomous AI advancements and AI Agents  on the Ethereum blockchain. At the forefront of innovation, we seamlessly merge cutting-edge AI technology with blockchain infrastructure, delivering transformative solutions and unparalleled rewards for our community.
                         </p>
 
@@ -121,7 +121,7 @@ export default function Home() {
                                         </defs>
                                     </svg>
                                 </div>
-                                <p>Empower Yourself with AI Agents</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Empower Yourself with AI Agents</p>
                             </div>
 
                             <div className='md:w-1/2 flex gap-3 md:text-xl md:mt-12 mt-6'>
@@ -137,7 +137,7 @@ export default function Home() {
                                     </svg>
                                 </div>
 
-                                <p>Pioneering Autonomous AI Evolution on the Ethereum Blockchain</p>
+                                <p data-aos='fade-in' data-aos-delay='100'> Pioneering Autonomous AI Evolution on the Ethereum Blockchain</p>
                             </div>
 
                             <div className='md:w-1/2 flex md:text-xl gap-3 md:mt-16 mt-6'>
@@ -152,7 +152,7 @@ export default function Home() {
                                         </defs>
                                     </svg>
                                 </div>
-                                <p>Earn Rewards for Engagement</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Earn Rewards for Engagement</p>
                             </div>
 
                             <div className='md:w-1/2 flex md:text-xl gap-3 md:mt-16 mt-6'>
@@ -167,7 +167,7 @@ export default function Home() {
                                         </defs>
                                     </svg>
                                 </div>
-                                <p>Redefining Intelligence</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Redefining Intelligence</p>
                             </div>
                         </div>
                     </div>
@@ -184,159 +184,159 @@ export default function Home() {
                     <div className='text-center space-y-6'>
                         <p className='md:text-xl'>Why choose Us?</p>
 
-                        <p className='md:text-6xl text-3xl font-bold tracking-wide'>
+                        <p data-aos='fade-up' className='md:text-6xl text-3xl font-bold tracking-wide'>
                             X-Nova Ai Use Cases
                         </p>
                     </div>
 
-                    <div className='flex flex-wrap items-start justify-between mx-auto md:mt-16 mt-8'>
+                    <div className='flex flex-wrap items-start justify-between mx-auto md:mt-20 mt-8'>
 
                         <div className='md:w-5/12'>
-                            <p className='md:text-2xl text-lg'>X-Nova Ai Engage-to-Earn dApp</p>
+                            <p data-aos='fade-right' className='md:text-2xl text-lg'>X-Nova Ai Engage-to-Earn dApp</p>
 
-                            <p className='md:my-8 my-6'>
+                            <p data-aos='fade-right' className='md:my-8 my-6'>
                                 The X-Nova AI Engage-to-Earn dApp is designed to reward user engagement while promoting project visibility
                             </p>
 
                             <div className='flex items-center gap-3'>
-                                <div>
+                                <div data-aos='zoom-in'>
                                     <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Community Growth & Promotion</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Community Growth & Promotion</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div data-aos='zoom-in'>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p data-aos='fade-in' data-aos-delay='100'>Increasing Awareness in the Crypto Community</p>
+                            </div>
+                            <div className='flex items-center gap-3 mt-4'>
+                                <div data-aos='zoom-in'>
+                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
+                                    </svg>
+                                </div>
+                                <p data-aos='fade-in' data-aos-delay='100'>Driving User Adoption</p>
                             </div>
                             <div className='flex items-center gap-3 mt-4'>
                                 <div>
-                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg data-aos='zoom-in' width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Increasing Awareness in the Crypto Community</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Building an Influencer Ecosystem</p>
                             </div>
                             <div className='flex items-center gap-3 mt-4'>
                                 <div>
-                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg data-aos='zoom-in' width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Driving User Adoption</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Driving Token Utility</p>
                             </div>
                             <div className='flex items-center gap-3 mt-4'>
                                 <div>
-                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg data-aos='zoom-in' width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Building an Influencer Ecosystem</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Data Insights for the Project</p>
                             </div>
                             <div className='flex items-center gap-3 mt-4'>
                                 <div>
-                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg data-aos='zoom-in' width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Driving Token Utility</p>
-                            </div>
-                            <div className='flex items-center gap-3 mt-4'>
-                                <div>
-                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
-                                    </svg>
-                                </div>
-                                <p>Data Insights for the Project</p>
-                            </div>
-                            <div className='flex items-center gap-3 mt-4'>
-                                <div>
-                                    <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
-                                    </svg>
-                                </div>
-                                <p>Supporting Grassroots Marketing</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Supporting Grassroots Marketing</p>
                             </div>
                         </div>
 
                         <div className='md:w-5/12'>
-                            <p className='md:text-2xl text-lg'>
+                            <p data-aos='fade-left' className='md:text-2xl text-lg'>
                                 X-Nova Ai Custom Ai Agent Bot
                                 & dApp
                             </p>
 
-                            <p className='md:my-8 my-6'>
+                            <p data-aos='fade-left' className='md:my-8 my-6'>
                                 AI Agent Telegram Bots can serve various roles, making them highly versatile for individuals, communities, and businesses
                             </p>
 
                             <div className='flex items-center gap-3'>
-                                <div>
+                                <div data-aos='zoom-in'>
                                     <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Community Management</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Community Management</p>
                             </div>
                             <div className='flex items-center gap-3 mt-4'>
-                                <div>
+                                <div data-aos='zoom-in'>
                                     <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Customer Support & Service</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Customer Support & Service</p>
                             </div>
                             <div className='flex items-center gap-3 mt-4'>
-                                <div>
+                                <div data-aos='zoom-in'>
                                     <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Learning & Education</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Learning & Education</p>
                             </div>
                             <div className='flex items-center gap-3 mt-4'>
-                                <div>
+                                <div data-aos='zoom-in'>
                                     <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Marketing & Promotions</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Marketing & Promotions</p>
                             </div>
                             <div className='flex items-center gap-3 mt-4'>
-                                <div>
+                                <div data-aos='zoom-in'>
                                     <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Financial Assistance</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Financial Assistance</p>
                             </div>
                             <div className='flex items-center gap-3 mt-4'>
-                                <div>
+                                <div data-aos='zoom-in'>
                                     <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Productivity Tools</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Productivity Tools</p>
                             </div>
                             <div className='flex items-center gap-3 mt-4'>
-                                <div>
+                                <div data-aos='zoom-in'>
                                     <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Entertainment & Fun</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Entertainment & Fun</p>
                             </div>
                             <div className='flex items-center gap-3 mt-4'>
-                                <div>
+                                <div data-aos='zoom-in'>
                                     <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>News & Updates</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>News & Updates</p>
                             </div>
                             <div className='flex items-center gap-3 mt-4'>
-                                <div>
+                                <div data-aos='zoom-in'>
                                     <svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12.5" cy="12.5" r="11.5854" stroke="#FCFCFC" strokeWidth="1.82927" />
                                     </svg>
                                 </div>
-                                <p>Social Engagement</p>
+                                <p data-aos='fade-in' data-aos-delay='100'>Social Engagement</p>
                             </div>
                         </div>
                     </div>
@@ -352,11 +352,11 @@ export default function Home() {
 
                     <div className='flex flex-wrap items-center justify-between mx-auto md:mt-20 mt-8 lg:space-y-0 space-y-12'>
 
-                        <div className="lg:w-6/12 w-full img-item">
-                            <img src={feature1} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
+                        <div data-aos='zoom-in' className="lg:w-6/12 w-full img-item">
+                            <img data-aos='zoom-in' data-aos-delay='100' src={feature1} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
                         </div>
 
-                        <div className="text-white-100 lg:w-5/12 w-full lg:mt-0 mt-8">
+                        <div data-aos='fade-up' className="text-white-100 lg:w-5/12 w-full lg:mt-0 mt-8">
                             <h2 className='md:text-4xl text-2xl font-bold font-bricolage'>
                                 Custom AI Agent Bot 🤖
                             </h2>
@@ -381,12 +381,12 @@ export default function Home() {
                     </div>
 
 
-                    <div className='flex flex-wrap flex-row-reverse items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
-                        <div className="lg:w-5/12 w-full img-item">
-                            <img src={feature2} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
+                    <div className='relative z-10 flex flex-wrap flex-row-reverse items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
+                        <div data-aos='zoom-in' className="lg:w-5/12 w-full img-item">
+                            <img data-aos='zoom-in' data-aos-delay='100' src={feature2} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
                         </div>
 
-                        <div className="text-white-100 lg:w-5/12 w-full lg:mt-0 mt-8">
+                        <div data-aos='fade-up' className="text-white-100 lg:w-5/12 w-full lg:mt-0 mt-8">
                             <h2 className='md:text-4xl text-2xl font-bold font-bricolage'>
                                 Custom AI Agen dApp  🖥
                             </h2>
@@ -411,13 +411,13 @@ export default function Home() {
 
                     <img src={bg_cases} alt='' className='absolute left-0 right-0 w-full'></img>
 
-                    <div className='flex flex-wrap items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
+                    <div className='relative z-10 flex flex-wrap items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
 
-                        <div className="lg:w-5/12 w-full img-item">
-                            <img src={feature3} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
+                        <div data-aos='fade-up' className="lg:w-5/12 w-full img-item">
+                            <img data-aos='zoom-in' data-aos-delay='100' src={feature3} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
                         </div>
 
-                        <div className="text-white-100 lg:w-6/12 w-full lg:mt-0 mt-8">
+                        <div data-aos='fade-up' className="text-white-100 lg:w-6/12 w-full lg:mt-0 mt-8">
                             <h2 className='md:text-4xl text-2xl font-bold font-bricolage'>
                                 Twitter AI Agent ( Engage to Earn )
                             </h2>
@@ -441,12 +441,12 @@ export default function Home() {
 
                     </div>
 
-                    <div className='flex flex-wrap flex-row-reverse items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
-                        <div className="lg:w-5/12 w-full img-item">
-                            <img src={feature4} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
+                    <div className='relative z-10 flex flex-wrap flex-row-reverse items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
+                        <div data-aos='zoom-in' className="lg:w-5/12 w-full img-item">
+                            <img data-aos='zoom-in' data-aos-delay='100' src={feature4} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
                         </div>
 
-                        <div className="text-white-100 lg:w-5/12 w-full lg:mt-0 mt-8">
+                        <div data-aos='fade-up' className="text-white-100 lg:w-5/12 w-full lg:mt-0 mt-8">
                             <h2 className='md:text-4xl text-2xl font-bold font-bricolage'>
                                 AI Agents Evolve & Breed
                             </h2>
@@ -493,7 +493,7 @@ export default function Home() {
                         </button>
                     </div>
 
-                    <div className='md:w-4/12 rounded-[32px] bg-mission bg-opacity-30 md:p-10 p-6 text-center space-y-8'>
+                    <div data-aos='fade-up' className='md:w-4/12 rounded-[32px] bg-mission bg-opacity-30 md:p-10 p-6 text-center space-y-8'>
                         <p className='md:text-3xl text-xl font-semibold font-bricolage'>
                             Mission
                         </p>
@@ -525,18 +525,18 @@ export default function Home() {
             <div id='tokenomics' className="lg:px-20 px-5 lg:py-20 py-6 relative z-10">
                 <div className='container mx-auto'>
 
-                    <p className='md:text-5xl text-3xl font-bricolage text-center'>TOKENOMICS</p>
+                    <p data-aos='fade-up' className='md:text-5xl text-3xl font-bricolage text-center'>TOKENOMICS</p>
 
-                    <button className='border-2 rounded-full px-6 py-3 mx-auto block mt-8'>
+                    <button data-aos='fade-in' data-aos-delay='100' className='border-2 rounded-full px-6 py-3 mx-auto block mt-8'>
                         Click to copy Contract Address
                     </button>
 
                     <div className='flex flex-wrap items-center justify-center md:pt-28 pt-8 lg:space-y-0 space-y-8'>
                         <div className='lg:w-5/12'>
-                            <img src={token} alt=''></img>
+                            <img data-aos='zoom-in' src={token} alt=''></img>
                         </div>
 
-                        <div className='lg:w-5/12 space-y-3'>
+                        <div data-aos='fade-left' className='lg:w-5/12 space-y-3'>
                             <div className='px-3 py-2 rounded-xl bg-[rgba(210,208,208,0.13)] flex items-center justify-between'>
 
                                 <div className='flex items-center gap-3'>
@@ -609,9 +609,11 @@ export default function Home() {
 
             <div id='roadmap' className="lg:px-20 px-5 lg:py-20 py-6 relative z-10">
                 <div className='container mx-auto'>
-                    <p className='md:text-5xl text-3xl font-bricolage text-center'>Roadmap</p>
+                    <p data-aos='fade-up' className='md:text-5xl text-3xl font-bricolage text-center'>Roadmap</p>
 
-                    <Roadmap />
+                    <div data-aos='zoom-in'>
+                        <Roadmap />
+                    </div>
                 </div>
             </div>
 
@@ -620,7 +622,7 @@ export default function Home() {
             <div id='faq' className="lg:px-20 px-5 py-8 relative z-10 bg-img">
                 <div className='container mx-auto'>
 
-                    <div className='text-center space-y-4'>
+                    <div data-aos='fade-up' className='text-center space-y-4'>
                         <p className='md:text-5xl text-3xl font-bricolage text-center'>Have any Question? </p>
                         <p>Join the industry leaders to discuss where the markets are heading. We accept token payments.</p>
                     </div>
