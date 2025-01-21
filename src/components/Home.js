@@ -87,8 +87,8 @@ export default function Home() {
                             </a>
                         </div>
 
-                        <div className=''>
-                            <img src={bottom} alt='x-nova-ai' className='left-0 right-0 w-full mt-6'></img>
+                        <div className='lg:h-[85vh]'>
+                            <img src={bottom} alt='x-nova-ai' className='lg:absolute right-0 left-0 w-full mt-6'></img>
                         </div>
                     </div>
                 </div>
