@@ -5,10 +5,10 @@ const phases = [
         id: 1, title: "Phase 1: Laying the Foundation (Q4 2024-Q1 2025)",
         content:
             <div className="font-semibold">
-                <p className="my-12 text-xl">Key Focus: Building the Core Platform and Community</p>
+                <p className="md:my-12 my-6 text-lg">Key Focus: Building the Core Platform and Community</p>
 
                 <p className="text-lg">Platform Development</p>
-                <ul className="list-disc pl-5 mb-12">
+                <ul className="list-disc pl-5 md:mb-12 mb-5">
                     <li>
                         Release of the X-Nova AI Agent Engage-to-Earn dApp on the Ethereum blockchain.
                     </li>
@@ -51,10 +51,10 @@ const phases = [
         id: 2, title: "Phase 2: Growth and Expansion (Q1 - Q2 2025)",
         content:
             <div className="font-semibold">
-                <p className="my-12 text-xl">Key Focus: Feature Expansion and Scaling Adoption</p>
+                <p className="md:my-12 my-6 text-lg">Key Focus: Feature Expansion and Scaling Adoption</p>
 
                 <p className="text-lg">Platform Enhancements</p>
-                <ul className="list-disc pl-5 mb-12">
+                <ul className="list-disc pl-5 md:mb-12 mb-5">
                     <li>
                         Introduce advanced customization tools for AI agents, including natural language processing and multi-tasking capabilities.
                     </li>
@@ -101,7 +101,7 @@ const phases = [
         id: 3, title: "Phase 3: Mass Adoption and Ecosystem Growth (Q2 - Q3 2025)",
         content:
             <div className="font-semibold">
-                <p className="my-12 text-xl">Key Focus: Advanced Features and Partnerships</p>
+                <p className="md:my-12 my-6 text-lg">Key Focus: Advanced Features and Partnerships</p>
                 <ul className="list-disc pl-5">
                     <li>
                         AI Agent Ecosystem
@@ -135,7 +135,7 @@ const phases = [
         id: 4, title: "Phase 4: Decentralization and Long-Term Sustainability (Q3 - Q4 2025)",
         content:
             <div className="font-semibold">
-                <p className="my-12 text-xl">Key Focus: Governance, Ecosystem Expansion, and Global Impact</p>
+                <p className="md:my-12 my-6 text-lg">Key Focus: Governance, Ecosystem Expansion, and Global Impact</p>
                 <ul className="list-disc pl-5">
                     <li>
                         Decentralized Governance
@@ -179,7 +179,7 @@ const Roadmap = () => {
                 {phases.map((phase) => (
                     <div
                         key={phase.id}
-                        className={`box lg:h-[88vh] md:p-12 p-6 font-bricolage space-y-5 mt-5 
+                        className={`box lg:h-[88vh] md:p-12 p-4 font-bricolage space-y-5 mt-5 
                             ${selectedPhase === phase.id ? "active" : ""}`}
                     >
                         <h2 className="md:text-3xl text-xl font-semibold">{phase.title}</h2>
