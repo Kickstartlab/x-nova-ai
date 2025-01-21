@@ -21,7 +21,7 @@ export default function Menu() {
         </a>
 
         <nav>
-          <ul className="flex justify-center gap-5 pt-4 items-center text-white-100">
+          <ul className="flex justify-center gap-6 pt-4 items-center text-white-100">
             <li><a href="/" className="">Home</a></li>
             <li><a href="#about" className="">About us</a></li>
             <li><a href="#features" className="">Features</a></li>
@@ -30,7 +30,6 @@ export default function Menu() {
             <li><a href="/" className=''>Autonomous Ai</a></li>
             <li><a href="#tokenomics" className=''>Tokenomics</a></li>
             <li><a href="#roadmap" className=''>Roadmap</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSduIZBkFj19dyFY0UCiP50nt_-bVaxs1fzp3yiTahe1pe3F7w/viewform?usp=dialog" target='_blank' rel='noopener noreferrer' className=''>Whitepaper</a></li>
           </ul>
         </nav>
 
@@ -43,7 +42,7 @@ export default function Menu() {
 
       <div className="lg:hidden flex items-center justify-between py-6">
         <a href="/" className="">
-          <img src={logo} alt="Logo" className='w-14'/>
+          <img src={logo} alt="Logo" className='w-14' />
         </a>
 
         <button onClick={ToggleSidebar} className="nav cursor-pointer">
@@ -58,7 +57,7 @@ export default function Menu() {
       <div className={`sidebar ${isOpen === true ? 'active' : ''} dark:bg-blue-200 bg-black-100 border border-white-50 rounded-md`}>
         <div className='p-6'>
           <ul onClick={ToggleSidebar} className='space-y-5'>
-          <li><a href="/" className="">Home</a></li>
+            <li><a href="/" className="">Home</a></li>
             <li><a href="#about" className="">About us</a></li>
             <li><a href="#features" className="">Features</a></li>
             <li><a href="#dapp" className="">Dapp</a></li>
@@ -66,7 +65,6 @@ export default function Menu() {
             <li><a href="/" className=''>Autonomous Ai</a></li>
             <li><a href="#tokenomics" className=''>Tokenomics</a></li>
             <li><a href="#roadmap" className=''>Roadmap</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSduIZBkFj19dyFY0UCiP50nt_-bVaxs1fzp3yiTahe1pe3F7w/viewform?usp=dialog" target='_blank' rel='noopener noreferrer' className=''>Whitepaper</a></li>
             <li><a href="/" className=''>Connect Wallet</a></li>
           </ul>
         </div>

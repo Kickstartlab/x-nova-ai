@@ -80,7 +80,7 @@ export default function Home() {
                                 </button>
                             </a>
 
-                            <a href="/">
+                            <a href="https://nova-ai-2.gitbook.io/nova-ai-docs/~/changes/EQ4qSBxbIHuomQbVvnfo?r=0J9QPlO36tuh8sLa0Kpg" target='_blank' rel='noopener noreferrer'>
                                 <button className="text-white-100 rounded-xl py-3 md:text-lg px-6 border-custom btn-gradient">
                                     Whitepaper
                                 </button>
@@ -643,7 +643,6 @@ export default function Home() {
                                 <li><a href="/" className=''>Autonomous Ai</a></li>
                                 <li><a href="#tokenomics" className=''>Tokenomics</a></li>
                                 <li><a href="#roadmap" className=''>Roadmap</a></li>
-                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSduIZBkFj19dyFY0UCiP50nt_-bVaxs1fzp3yiTahe1pe3F7w/viewform?usp=dialog" target='_blank' rel='noopener noreferrer' className=''>Whitepaper</a></li>
                             </ul>
                         </nav>
 
