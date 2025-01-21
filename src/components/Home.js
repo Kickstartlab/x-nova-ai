@@ -647,10 +647,10 @@ export default function Home() {
                         </nav>
 
                         <div className="flex justify-center gap-3 items-center">
-                            <a href='/' className='p-3 rounded-xl bg-[#353535]'>
+                            <a href='https://x.com/XNova_AI' className='p-3 rounded-xl bg-[#353535]'>
                                 <img src={x} alt='X' className='w-4'></img>
                             </a>
-                            <a href='/' className='p-3 rounded-xl bg-[#353535]'>
+                            <a href='https://t.me/xnova_ai' className='p-3 rounded-xl bg-[#353535]'>
                                 <img src={telegram} alt='X' className='w-[18px]'></img>
                             </a>
                             <a href='/' className='p-3 rounded-xl bg-[#353535]'>
@@ -658,7 +658,7 @@ export default function Home() {
                             </a>
                         </div>
 
-                        <p className='text-center'>Copyright © 2025 X-Nova Ai. All rights reserved.</p>
+                        <p className='text-center'>Copyright © {new Date().getFullYear()} X-Nova Ai. All rights reserved.</p>
                     </div>
 
 
