@@ -13,6 +13,8 @@ import token from '../assets/token.png';
 import x from '../assets/x.png';
 import telegram from '../assets/telegram.png';
 import discord from '../assets/discord.png';
+import bg_cases from '../assets/bg_cases.svg';
+import bg_token from '../assets/bg-token.png';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -173,6 +175,8 @@ export default function Home() {
             </section>
 
             {/* Why choose Us? section */}
+
+            <img src={bg_cases} alt='' className='absolute left-0 right-0 w-full'></img>
 
             <section id='choose' className="lg:px-20 px-5 lg:py-20 py-6 relative z-10 font-bricolage">
                 <div className='container mx-auto'>
@@ -341,6 +345,8 @@ export default function Home() {
 
             {/* features section */}
 
+            <img src={bg_cases} alt='' className='absolute left-0 right-0 w-full'></img>
+
             <section id='features' className="lg:px-20 px-5 lg:pb-20 py-6 relative z-10">
                 <div className='container mx-auto'>
 
@@ -462,7 +468,11 @@ export default function Home() {
                 </div>
             </section>
 
+            <img src={bg_cases} alt='' className='absolute left-0 right-0 w-full'></img>
+
             {/* X-Nova AI: Unleashing */}
+
+            <img src={bg_token} alt='' className='absolute left-0 right-0 w-full mt-44'></img>
 
             <div className="lg:py-20 py-6 lg:px-20 px-5 container mx-auto relative z-10">
 
@@ -590,6 +600,8 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+
+
 
             {/* roadmap section */}
 

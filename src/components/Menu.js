@@ -1,9 +1,5 @@
 import React, { useState } from 'react'
 import logo from '../assets/logo.png';
-import platform1 from '../assets/platform1.png';
-import platform2 from '../assets/platform2.png';
-import platform3 from '../assets/platform3.png';
-import platform4 from '../assets/platform4.png';
 
 export default function Menu() {
 
@@ -69,6 +65,7 @@ export default function Menu() {
             <li><a href="/" className=''>Autonomous Ai</a></li>
             <li><a href="#tokenomics" className=''>Tokenomics</a></li>
             <li><a href="#roadmap" className=''>Roadmap</a></li>
+            <li><a href="/" className=''>Connect Wallet</a></li>
           </ul>
         </div>
       </div>
