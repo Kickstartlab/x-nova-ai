@@ -488,9 +488,11 @@ export default function Home() {
                             Our vision is bridging the gap between artificial intelligence and blockchain technology, empowering users with accessible, customizable, and innovative tools. Our mission is to foster engagement, reward meaningful contributions, and create an ecosystem where technology adapts to individual needs, driving adoption and innovation across the digital landscape.”
                         </p>
 
-                        <button className='px-5 py-2 rounded-full border-2 '>
-                            Read More
-                        </button>
+                        <a href='https://nova-ai-2.gitbook.io/xnovaai/vision-and-mission/vision'>
+                            <button className='px-5 py-2 rounded-full border-2 border-white-100 hover:bg-white-100 hover:text-purple-100 mt-8'>
+                                Read More
+                            </button>
+                        </a>
                     </div>
 
                     <div data-aos='fade-up' className='md:w-4/12 rounded-[32px] bg-mission bg-opacity-30 md:p-10 p-6 text-center space-y-8'>
@@ -502,9 +504,11 @@ export default function Home() {
                             Our mission is revolutionizing digital interaction by merging AI innovation with blockchain technology, empowering individuals and organizations with tools that foster creativity, collaboration, and growth. Our mission is to build a decentralized ecosystem where AI serves as a catalyst for automation, engagement, and seamless user experiences, while promoting active participation and rewarding community contributions.
                         </p>
 
-                        <button className='px-5 py-2 rounded-full border-2 '>
-                            Read More
-                        </button>
+                        <a href='https://nova-ai-2.gitbook.io/xnovaai/vision-and-mission/mission'>
+                            <button className='px-5 py-2 rounded-full border-2 border-white-100 hover:bg-white-100 hover:text-pink-100 mt-8'>
+                                Read More
+                            </button>
+                        </a>
                     </div>
 
                     <div className='mx-6 md:w-3/12 space-y-5'>
