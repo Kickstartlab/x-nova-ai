@@ -353,7 +353,7 @@ export default function Home() {
                     <div className='flex flex-wrap items-center justify-between mx-auto md:mt-20 mt-8 lg:space-y-0 space-y-12'>
 
                         <div className="lg:w-6/12 w-full img-item">
-                            <img src={feature1} alt="" className='max-w-[450px] w-full' />
+                            <img src={feature1} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
                         </div>
 
                         <div className="text-white-100 lg:w-5/12 w-full lg:mt-0 mt-8">
@@ -383,7 +383,7 @@ export default function Home() {
 
                     <div className='flex flex-wrap flex-row-reverse items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
                         <div className="lg:w-5/12 w-full img-item">
-                            <img src={feature2} alt="" className='max-w-[450px] w-full' />
+                            <img src={feature2} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
                         </div>
 
                         <div className="text-white-100 lg:w-5/12 w-full lg:mt-0 mt-8">
@@ -414,7 +414,7 @@ export default function Home() {
                     <div className='flex flex-wrap items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
 
                         <div className="lg:w-5/12 w-full img-item">
-                            <img src={feature3} alt="" className='max-w-[450px] w-full' />
+                            <img src={feature3} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
                         </div>
 
                         <div className="text-white-100 lg:w-6/12 w-full lg:mt-0 mt-8">
@@ -443,7 +443,7 @@ export default function Home() {
 
                     <div className='flex flex-wrap flex-row-reverse items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
                         <div className="lg:w-5/12 w-full img-item">
-                            <img src={feature4} alt="" className='max-w-[450px] w-full' />
+                            <img src={feature4} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
                         </div>
 
                         <div className="text-white-100 lg:w-5/12 w-full lg:mt-0 mt-8">
