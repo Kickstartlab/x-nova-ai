@@ -32,13 +32,13 @@ export default function Menu() {
             <li><a href="https://nova-ai-2.gitbook.io/xnovaai/x-nova-twitter-ai-agent-nova/engage-to-earn" className=''>Twitter Ai</a></li>
             <li><a href="#tokenomics" className=''>Tokenomics</a></li>
             <li><a href="#roadmap" className=''>Roadmap</a></li>
-            <li><a href="https://nova-ai-2.gitbook.io/nova-ai-docs/~/changes/EQ4qSBxbIHuomQbVvnfo?r=0J9QPlO36tuh8sLa0Kpg" className=''>Private Sale</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSduIZBkFj19dyFY0UCiP50nt_-bVaxs1fzp3yiTahe1pe3F7w/viewform?usp=dialog" className=''>Private Sale</a></li>
           </ul>
         </nav>
 
         <div>
           <button onClick={() => setShow(!show)} className="border-custom btn-gradient animate-border rounded-lg py-3 lg:px-6 px-4 font-semibold text-white-100">
-            Connect Wallet
+          Ai Supervision
           </button>
         </div>
       </div>
@@ -70,8 +70,8 @@ export default function Menu() {
             <li><a href="https://nova-ai-2.gitbook.io/xnovaai/x-nova-twitter-ai-agent-nova/engage-to-earn" className=''>Twitter Ai</a></li>
             <li><a href="#tokenomics" className=''>Tokenomics</a></li>
             <li><a href="#roadmap" className=''>Roadmap</a></li>
-            <li><a href="https://nova-ai-2.gitbook.io/nova-ai-docs/~/changes/EQ4qSBxbIHuomQbVvnfo?r=0J9QPlO36tuh8sLa0Kpg" className=''>Private Sale</a></li>
-            <li><a href="/" className=''>Connect Wallet</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSduIZBkFj19dyFY0UCiP50nt_-bVaxs1fzp3yiTahe1pe3F7w/viewform?usp=dialog" className=''>Private Sale</a></li>
+            <li><a href="/" className=''>Ai Supervision</a></li>
           </ul>
         </div>
       </div>
