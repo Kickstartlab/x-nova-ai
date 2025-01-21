@@ -179,7 +179,7 @@ const Roadmap = () => {
                 {phases.map((phase) => (
                     <div
                         key={phase.id}
-                        className={`box lg:h-[88vh] md:p-12 p-6 font-bricolage space-y-5 my-6 ${selectedPhase === phase.id ? "active" : ""}`}
+                        className={`box lg:h-[88vh] md:p-12 p-6 font-bricolage space-y-5 mt-5 ${selectedPhase === phase.id ? "active" : ""}`}
                     >
                         <h2 className="md:text-3xl text-xl font-semibold">{phase.title}</h2>
                         <p>{phase.content}</p>

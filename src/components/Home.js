@@ -380,6 +380,7 @@ export default function Home() {
 
                     </div>
 
+
                     <div className='flex flex-wrap flex-row-reverse items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
                         <div className="lg:w-5/12 w-full img-item">
                             <img src={feature2} alt="" className='max-w-[450px] w-full' />
@@ -407,6 +408,8 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+
+                    <img src={bg_cases} alt='' className='absolute left-0 right-0 w-full'></img>
 
                     <div className='flex flex-wrap items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
 
@@ -468,7 +471,6 @@ export default function Home() {
                 </div>
             </section>
 
-            <img src={bg_cases} alt='' className='absolute left-0 right-0 w-full'></img>
 
             {/* X-Nova AI: Unleashing */}
 
@@ -601,9 +603,9 @@ export default function Home() {
                 </div>
             </div>
 
-
-
             {/* roadmap section */}
+
+            <img src={bg_token} alt='' className='absolute left-0 right-0 w-full -mt-20'></img>
 
             <div id='roadmap' className="lg:px-20 px-5 lg:py-20 py-6 relative z-10">
                 <div className='container mx-auto'>
@@ -615,7 +617,7 @@ export default function Home() {
 
             {/* faq section */}
 
-            <div id='faq' className="lg:px-20 px-5 py-8 relative z-10">
+            <div id='faq' className="lg:px-20 px-5 py-8 relative z-10 bg-img">
                 <div className='container mx-auto'>
 
                     <div className='text-center space-y-4'>
