@@ -643,6 +643,7 @@ export default function Home() {
                                 <li><a href="/" className=''>Autonomous Ai</a></li>
                                 <li><a href="#tokenomics" className=''>Tokenomics</a></li>
                                 <li><a href="#roadmap" className=''>Roadmap</a></li>
+                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSduIZBkFj19dyFY0UCiP50nt_-bVaxs1fzp3yiTahe1pe3F7w/viewform?usp=dialog" target='_blank' rel='noopener noreferrer' className=''>Whitepaper</a></li>
                             </ul>
                         </nav>
 
