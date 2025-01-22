@@ -70,10 +70,13 @@ export default function Home() {
                             and AI Agents  On The Ethereum Blockchain
                         </p>
                         <p>
+                            At the forefront of innovation, we seamlessly merge cutting-edge AI technology with blockchain infrastructure, delivering transformative solutions and unparalleled rewards for our community.
+                        </p>
+                        <p>
                             CA:
                         </p>
 
-                        <div className="flex items-center justify-center md:gap-8 gap-6 mx-auto mt-5 font-bricolage">
+                        <div className="flex items-center justify-center md:gap-8 gap-6 mx-auto font-bricolage">
                             <a href="/">
                                 <button className="text-white-100 rounded-xl py-3 md:text-lg px-6 border-custom btn-gradient">
                                     Get Started
@@ -102,8 +105,11 @@ export default function Home() {
                     <div className='flex flex-col gap-y-5 items-center mx-auto justify-center w-11/12 bg-black-50 md:p-16 p-6 border-2 rounded-xl text-center'>
                         <p className='font-[500]'>WHO WE ARE</p>
 
-                        <p data-aos='fade-up' className='md:text-2xl'>
-                            Welcome to X-Nova AI, the first platform pioneering autonomous AI advancements and AI Agents  on the Ethereum blockchain. At the forefront of innovation, we seamlessly merge cutting-edge AI technology with blockchain infrastructure, delivering transformative solutions and unparalleled rewards for our community.
+                        <p data-aos='fade-up' className='md:text-xl'>
+                            What is X-Nova AI
+                            𝖷-𝖭𝗈𝗏𝖺 𝖠𝖨 𝗂𝗌 𝗋𝖾𝗏𝗈𝗅𝗎𝗍𝗂𝗈𝗇𝗂𝗓𝗂𝗇𝗀 𝗍𝗁𝖾 𝗐𝖺𝗒 𝖠𝖨 𝖺𝗇𝖽 𝖻𝗅𝗈𝖼𝗄𝖼𝗁𝖺𝗂𝗇 𝗐𝗈𝗋𝗄 𝗍𝗈𝗀𝖾𝗍𝗁𝖾𝗋. 𝖠𝗌 𝗍𝗁𝖾 𝖿𝗂𝗋𝗌𝗍 𝗈𝖿 𝗂𝗍𝗌 𝗄𝗂𝗇𝖽, 𝗈𝗎𝗋 𝗉𝗅𝖺𝗍𝖿𝗈𝗋𝗆 𝖾𝗆𝗉𝗈𝗐𝖾𝗋𝗌 𝗂𝗇𝖽𝗂𝗏𝗂𝖽𝗎𝖺𝗅𝗌 𝖺𝗇𝖽 𝗈𝗋𝗀𝖺𝗇𝗂𝗓𝖺𝗍𝗂𝗈𝗇𝗌 𝗐𝗂𝗍𝗁 𝗇𝖾𝗑𝗍-𝗀𝖾𝗇 𝖠𝖨 𝖠𝗀𝖾𝗇𝗍𝗌 𝗍𝗁𝖺𝗍 𝗌𝗂𝗆𝗉𝗅𝗂𝖿𝗒 𝖺𝗇𝖽 𝖺𝗎𝗍𝗈𝗆𝖺𝗍𝖾 𝖾𝗏𝖾𝗇 𝗍𝗁𝖾 𝗆𝗈𝗌𝗍 𝖼𝗈𝗆𝗉𝗅𝖾𝗑 𝗍𝖺𝗌𝗄𝗌
+                            <br></br><br></br>
+                            𝖡𝗒 𝖼𝗈𝗆𝖻𝗂𝗇𝗂𝗇𝗀 𝖼𝗎𝗍𝗍𝗂𝗇𝗀-𝖾𝖽𝗀𝖾 𝖠𝖨 𝗌𝗈𝗅𝗎𝗍𝗂𝗈𝗇𝗌 𝗐𝗂𝗍𝗁 𝗍𝗁𝖾 𝗍𝗋𝖺𝗇𝗌𝗉𝖺𝗋𝖾𝗇𝖼𝗒 𝖺𝗇𝖽 𝗌𝖾𝖼𝗎𝗋𝗂𝗍𝗒 𝗈𝖿 𝖻𝗅𝗈𝖼𝗄𝖼𝗁𝖺𝗂𝗇 𝗍𝖾𝖼𝗁𝗇𝗈𝗅𝗈𝗀𝗒, 𝖷-𝖭𝗈𝗏𝖺 𝖠𝖨 𝗂𝗌 𝗉𝖺𝗏𝗂𝗇𝗀 𝗍𝗁𝖾 𝗐𝖺𝗒 𝖿𝗈𝗋 𝖺 𝗌𝗆𝖺𝗋𝗍𝖾𝗋, 𝗆𝗈𝗋𝖾 𝖾𝖿𝖿𝗂𝖼𝗂𝖾𝗇𝗍, 𝖺𝗇𝖽 𝖼𝗈𝗇𝗇𝖾𝖼𝗍𝖾𝖽 𝗐𝗈𝗋𝗅𝖽.
                         </p>
 
                         <div className='flex flex-wrap items-start mx-auto text-left'>

@@ -21,7 +21,7 @@ export default function Menu() {
         </a>
 
         <nav>
-          <ul className="flex justify-center gap-6 text-sm pt-4 items-center text-white-100">
+          <ul className="flex justify-center gap-6 pt-4 items-center text-white-100">
             <li><a href="/" className="">Home</a></li>
             <li><a href="#about" className="">About us</a></li>
             <li><a href="#features" className="">Features</a></li>
