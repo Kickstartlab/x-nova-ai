@@ -25,20 +25,18 @@ export default function Menu() {
             <li><a href="/" className="">Home</a></li>
             <li><a href="#about" className="">About us</a></li>
             <li><a href="#features" className="">Features</a></li>
-            <li><a href="https://nova-ai-2.gitbook.io/xnovaai/x-nova-ai-agent-bot-and-dapp/x-nova-ai-agent-dapp" className="">Dapp</a>
+            <li><a href="/" className="">Dapp</a>
             </li>
-            <li><a href="https://nova-ai-2.gitbook.io/xnovaai/x-nova-ai-agent-bot-and-dapp/x-nova-ai-custom-ai-agent-bot" className=''>AI Agent</a></li>
-            <li><a href="https://nova-ai-2.gitbook.io/xnovaai/x-nova-autonomous-ai-developments/ai-agents-evolve-and-breed" className=''>Autonomous Ai</a></li>
-            <li><a href="https://nova-ai-2.gitbook.io/xnovaai/x-nova-twitter-ai-agent-nova/engage-to-earn" className=''>Twitter Ai</a></li>
+            <li><a href="/" className=''>AI Agent</a></li>
+            <li><a href="/" className=''>Autonomous Ai</a></li>
             <li><a href="#tokenomics" className=''>Tokenomics</a></li>
             <li><a href="#roadmap" className=''>Roadmap</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSduIZBkFj19dyFY0UCiP50nt_-bVaxs1fzp3yiTahe1pe3F7w/viewform?usp=dialog" className=''>Private Sale</a></li>
           </ul>
         </nav>
 
         <div>
           <button onClick={() => setShow(!show)} className="border-custom btn-gradient animate-border rounded-lg py-3 lg:px-6 px-4 font-semibold text-white-100">
-          Ai Supervision
+            Ai Supervision
           </button>
         </div>
       </div>
@@ -63,14 +61,11 @@ export default function Menu() {
             <li><a href="/" className="">Home</a></li>
             <li><a href="#about" className="">About us</a></li>
             <li><a href="#features" className="">Features</a></li>
-            <li><a href="https://nova-ai-2.gitbook.io/xnovaai/x-nova-ai-agent-bot-and-dapp/x-nova-ai-agent-dapp" className="">Dapp</a>
-            </li>
-            <li><a href="https://nova-ai-2.gitbook.io/xnovaai/x-nova-ai-agent-bot-and-dapp/x-nova-ai-custom-ai-agent-bot" className=''>AI Agent</a></li>
-            <li><a href="https://nova-ai-2.gitbook.io/xnovaai/x-nova-autonomous-ai-developments/ai-agents-evolve-and-breed" className=''>Autonomous Ai</a></li>
-            <li><a href="https://nova-ai-2.gitbook.io/xnovaai/x-nova-twitter-ai-agent-nova/engage-to-earn" className=''>Twitter Ai</a></li>
+            <li><a href="/" className="">Dapp</a></li>
+            <li><a href="/" className=''>AI Agent</a></li>
+            <li><a href="/" className=''>Autonomous Ai</a></li>
             <li><a href="#tokenomics" className=''>Tokenomics</a></li>
             <li><a href="#roadmap" className=''>Roadmap</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSduIZBkFj19dyFY0UCiP50nt_-bVaxs1fzp3yiTahe1pe3F7w/viewform?usp=dialog" className=''>Private Sale</a></li>
             <li><a href="/" className=''>Ai Supervision</a></li>
           </ul>
         </div>
