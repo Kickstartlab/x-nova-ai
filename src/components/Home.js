@@ -420,7 +420,7 @@ export default function Home() {
                     <div className='relative z-10 flex flex-wrap items-center justify-between mx-auto md:mt-20 mt-12 lg:space-y-0 space-y-12'>
 
                         <div data-aos='fade-up' className="lg:w-5/12 w-full img-item">
-                            <img data-aos='zoom-in' data-aos-delay='100' src={feature3} alt="" className='sm:max-w-[450px] max-w-[280px]  flex mx-auto w-full' />
+                            <img data-aos='zoom-in' data-aos-delay='100' src={feature3} alt="" className='sm:max-w-[450px] max-w-[280px] flex mx-auto w-full' />
                         </div>
 
                         <div data-aos='fade-up' className="text-white-100 lg:w-6/12 w-full lg:mt-0 mt-8">
