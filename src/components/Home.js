@@ -106,7 +106,6 @@ export default function Home() {
                         <p className='font-[500]'>WHO WE ARE</p>
 
                         <p data-aos='fade-up' className='md:text-xl'>
-                            What is X-Nova AI?
                             X-Nova AI is revolutionizing the way AI and blockchain work together. As the first of its kind, our platform empowers individuals and organizations with next-gen AI Agents that simplify and automate even the most complex tasks.
                             <br></br><br></br>
                             By combining cutting-edge AI solutions with the transparency and security of blockchain technology, X-Nova AI is paving the way for a smarter, more efficent and connected world.
